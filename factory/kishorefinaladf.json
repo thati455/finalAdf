@@ -1,0 +1,9 @@
+{
+	"name": "kishorefinaladf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c23bbcd0-15f3-4392-b540-adeb8c08be60",
+		"tenantId": "7dc02baf-fbbf-4029-9d54-7fdd61012fc4"
+	}
+}

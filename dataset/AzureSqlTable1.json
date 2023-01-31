@@ -1,0 +1,136 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "RideId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "VendorId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PickupTime",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "DropTime",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "PickupLocationId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "DropLocationId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CabNumber",
+				"type": "varchar"
+			},
+			{
+				"name": "DriverLicenseNumber",
+				"type": "varchar"
+			},
+			{
+				"name": "PassengerCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TripDistance",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			},
+			{
+				"name": "RatecodeId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PaymentType",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TotalAmount",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			},
+			{
+				"name": "FareAmount",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			},
+			{
+				"name": "Extra",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			},
+			{
+				"name": "MtaTax",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			},
+			{
+				"name": "TipAmount",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			},
+			{
+				"name": "TollsAmount",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			},
+			{
+				"name": "ImprovementSurcharge",
+				"type": "decimal",
+				"precision": 12,
+				"scale": 2
+			},
+			{
+				"name": "PickupYear",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PickupMonth",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PickupDay",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "YellowTaxis"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
