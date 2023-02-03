@@ -13,6 +13,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"folderPath": "population",
 				"container": "covidreport"
 			},
 			"columnDelimiter": "\t",
