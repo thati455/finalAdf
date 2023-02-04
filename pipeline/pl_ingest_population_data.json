@@ -47,6 +47,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -131,7 +132,7 @@
 							]
 						},
 						{
-							"name": "Delete source file ",
+							"name": "Delete source file",
 							"type": "Delete",
 							"dependsOn": [
 								{
